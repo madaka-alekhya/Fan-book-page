@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<!----font link-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <title>fan book page</title>
+
+<style>
+    *{
+        font-family: "PT Serif", serif;
+    }
+    .mytitle{
+        width:100%;
+        height:250px;
+        background-image: url('https://lh3.googleusercontent.com/_1IhAFH2jqQe---I32QgKBkZWr_9YVitqtWF49aDQzk2uPBXNfAV-bn-PRAz7qnMlDtdB5_M7BSkxdDn=w2880-h1200-p-l90-rj');
+        background-position: center;
+      background-size: cover;
+
+      color:black;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .mypost{
+        width:95%;
+        max-width: 500px;
+        margin:20px auto 0px auto;
+        padding:20px;
+        box-shadow:0px 0px 5px 0px grey;
+    }
+    .mybuttons{
+        margin-top: 20px; 
+    }
+    .album{
+        width:100%;
+        max-width: 550px;
+        margin:0px auto 0px auto;
+        padding:20px 20px 20px;
+    }
+    .best{
+        width:100%;
+        max-width: 550px;
+        margin:0px auto 0px auto;
+        margin-bottom: 5px;
+        padding:20px ;
+
+    }
+    .marry{
+        width:100%;
+        max-width: 550px;
+        margin:0px auto 0px auto;
+        padding:20px ;
+
+    }
+</style>
+
+</head>
+
+<body>
+    <div class="mytitle">
+        <h1>BTS Fan Book</h1>
+</div>
+        <div class="mypost">
+            <!---forms lo floating label in bootstrap--->
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Enter Nickname">
+                <label for="floatingInput">Nickname</label>
+            </div>
+
+            <!----forms lo ne floating textarea in bootstrap-->
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a Message here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Fan Message</label>
+            </div>
+            
+            <div class="mybuttons">
+                <button type="button" class="btn btn-dark">Leave a Fan Message</button>
+            </div>
+        </div>
+        
+      </div>
+
+<div class="album">
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInputGrid" placeholder="-Breadboy9000" value="-Breadboy9000" >
+            <label for="floatingInputGrid">Love your new Album!</label>
+          </div>
+        </div>
+</div>
+</div>
+<div class="best">
+    <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInputGrid" placeholder="ClassicWonder19" value="ClassicWonder19" >
+            <label for="floatingInputGrid">You are the best!</label>
+          </div>
+        </div>
+
+</div>
+</div>
+<div class="marry">
+    <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInputGrid" placeholder="-Wonderbread10" value="-Wonderbread10">
+            <label for="floatingInputGrid">MarryMe!</label>
+          </div>
+        </div>
+
+</div>
+</div>
+
+</body>
+
+</html>
